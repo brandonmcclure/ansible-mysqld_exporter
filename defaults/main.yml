@@ -4,7 +4,7 @@ mysqld_exporter_version: 0.12.1
 mysqld_exporter_web_listen_address: "0.0.0.0:9104"
 
 mysqld_exporter_dsn: "exporter:password@(localhost:3306)/"
-mysqld_exporter_systemd_file_force: yes
+mysqld_exporter_systemd_file_force: no 
 mysqld_exporter_my_cnf: ""
 
 mysqld_exporter_collect: []
