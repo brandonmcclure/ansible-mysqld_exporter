@@ -67,6 +67,7 @@
     owner: root
     group: root
     mode: 0644
+    force: "{{mysqld_exporter_systemd_file_force}}""
   no_log: "{{ not lookup('env', 'ANSIBLE_DEBUG') | bool }}"
   notify:
     - restart mysqld exporter
